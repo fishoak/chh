@@ -1,0 +1,24 @@
+
+Q: Where is the Fusion table itself located?
+A: It is at this URL:
+https://www.google.com/fusiontables/DataSource?docid=1R-Ls6KQdjqx7Gjn-LrFv6_iZKTZXflpR7PWPZIPi
+
+Note that the ID in the URL is the one that will show up in the Javascript
+function that creates the map.
+
+Q: How to deploy?
+A: Get the JS and all of the other supporting files uploaded to the
+web page.
+  Where: weebly.com
+  Credentials: log in as Carol. Credentials are cached in Chrome.
+
+1. Go to the maps page and cut and paste from index.html into that page.
+2. Upload the js. Go to Theme, and in the bottom left is "Edit HTML/CSS". Find
+   the js directory, and do Upload File ON THAT ITEM. if you put the JS in the
+   wrong directory, you can't move it.
+
+IMPORTANT: Note that the JS is in "files/theme/js", so after you upload the
+file check those directories.
+
+Q: Where is the Google Fusion API documented?
+A: https://support.google.com/fusiontables/answer/171259?hl=en&ref_topic=1652595
